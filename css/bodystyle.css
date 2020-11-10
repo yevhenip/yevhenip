@@ -1,0 +1,108 @@
+body {
+    font-family: FontAwesome, serif;
+}
+
+.container {
+    padding-top: 6em;
+}
+
+.about-me, .abilities, .about-me-text, .item, .items-enumerating {
+    display: flex;
+}
+
+.about-me-text {
+    margin: 4.5em 0 0 3em;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+h1, h2 {
+    color: #040467;
+}
+
+.about-me-text > div:first-child {
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: solid .2em blue;
+}
+
+.about-me-text > div:last-child {
+    width: 75%;
+}
+
+#me {
+    position: relative;
+    z-index: -1;
+    height: 30em;
+}
+
+.abilities {
+    padding-top: 10em;
+    width: 75%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills {
+    width: 100%;
+    text-align: start;
+}
+
+hr {
+    color: gray;
+    height: .01em;
+    width: 75%;
+}
+
+.items-enumerating {
+    margin-top: 2em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 47%;
+    justify-content: space-between;
+    padding: .5em 0 0 .2em;
+}
+
+.item:hover {
+    background: #F3EFE0;
+}
+
+.stars .fa {
+    transition: all 0.3s;
+}
+
+.item:hover .stars .fa {
+    margin-right: .2em;
+}
+
+.stars {
+    margin: .2em 0 0 2em;
+}
+
+.skills span, .languages span {
+    color: blue;
+}
+
+@media (max-width: 750px) {
+    .abilities {
+        width: 100%;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .about-me {
+        flex-direction: column;
+        align-items: center;
+    }
+}
