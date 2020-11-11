@@ -1,0 +1,96 @@
+footer {
+    width: 100%;
+    background: #434242;
+    padding-top: 2em;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h2 {
+    color: white;
+}
+
+.social-link {
+    height: 3em;
+    margin: 2em 0;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+#telegram:hover {
+    fill: #039be5;
+}
+
+#github {
+    fill: white;
+}
+
+#github:hover {
+    fill: #5C6BC0;
+}
+
+.purple, .pink, .orange, .yellow {
+    stop-color: white;
+}
+
+#instagram:hover .yellow {
+    stop-color: #E09B3D
+}
+
+#instagram:hover .orange {
+    stop-color: #C74C4D
+}
+
+#instagram:hover .pink {
+    stop-color: #C21975
+}
+
+#instagram:hover .purple {
+    stop-color: #7024C4
+}
+
+.photo-line {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo-line {
+    height: 3.5em;
+}
+
+footer hr {
+    margin-top: 1.8em;
+    width: 40%;
+}
+
+.copyright {
+    padding-left: 2em;
+    font-size: .5em;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.copyright p {
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+
+    .social-link {
+        height: 2em;
+        margin: 1em 0;
+    }
+
+    .photo-line {
+        display: none;
+    }
+}
