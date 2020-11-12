@@ -1,5 +1,5 @@
 body {
-    font-family: FontAwesome, serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container-body {
@@ -7,7 +7,7 @@ body {
     padding-top: 6em;
 }
 
-.about-me, .abilities, .about-me-text, .item, .items-enumerating {
+.about-me, .abilities, .about-me-text, .item, .items-enumerating, .portfolio div {
     display: flex;
 }
 
@@ -21,6 +21,10 @@ body {
     margin: 4.5em 0 0 3em;
     flex-direction: column;
     align-items: center;
+}
+
+.about-me-text div p {
+    margin-top: 4em;
 }
 
 p {
@@ -64,6 +68,7 @@ h1, h2 {
 hr {
     color: gray;
     height: .01em;
+    margin-bottom: 3em;
     width: 75%;
 }
 
@@ -99,9 +104,26 @@ hr {
     color: blue;
 }
 
+.portfolio {
+    text-align: center;
+    padding-top: 10em;
+}
+
+.portfolio div {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo {
+    object-fit: cover;
+    width: 40em;
+    margin: 0.5em;
+    max-height: 40em;
+}
+
 @media (max-width: 750px) {
     .abilities {
-        width: 100%;
+        width: 90%;
     }
 
     .about-me-text {
@@ -116,7 +138,7 @@ hr {
         width: 100%;
     }
 
-    .about-me {
+    .about-me, .portfolio {
         flex-direction: column;
         align-items: center;
     }
