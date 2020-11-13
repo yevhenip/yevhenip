@@ -117,6 +117,7 @@ hr {
 .photo {
     object-fit: cover;
     width: 60vh;
+    border: solid 0.1em black;
     margin: 0.5em;
 }
 
