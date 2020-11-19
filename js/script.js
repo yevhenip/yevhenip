@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    let photo = $('.photo');
+    let width = photo.width().toString()
+    photo.css('height', `${width}`)
     $('#year').text(new Date().getFullYear());
     $(".navbar-toggle").click(function () {
         navToggle();
