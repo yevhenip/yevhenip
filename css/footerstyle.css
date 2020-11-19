@@ -83,11 +83,21 @@ footer hr {
     text-align: center;
 }
 
+.map, iframe {
+    width: 70%;
+    height: 20em;
+    margin-bottom: 1em;
+}
+
 @media (max-width: 750px) {
 
     .social-link {
         height: 2em;
         margin: 1em 0;
+    }
+
+    .map, iframe {
+        width: 89%;
     }
 
     .photo-line {
