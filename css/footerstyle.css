@@ -27,10 +27,6 @@ footer div {
     fill: #039be5;
 }
 
-#github {
-    fill: white;
-}
-
 #github:hover {
     fill: #5C6BC0;
 }
@@ -39,20 +35,8 @@ footer div {
     stop-color: white;
 }
 
-#instagram:hover .yellow {
-    stop-color: #E09B3D
-}
-
-#instagram:hover .orange {
-    stop-color: #C74C4D
-}
-
-#instagram:hover .pink {
-    stop-color: #C21975
-}
-
-#instagram:hover .purple {
-    stop-color: #7024C4
+#reddit:hover {
+    fill: #FF4500;
 }
 
 .photo-line {
